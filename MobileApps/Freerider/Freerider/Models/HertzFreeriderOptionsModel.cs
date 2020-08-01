@@ -15,7 +15,6 @@ namespace Freerider.Models
             };
         }
 
-        public string Title { get; set; } = "Lägg till ny bevakning";
         public List<string> DestinationOptions { get; set; }
     }
 }

@@ -7,10 +7,6 @@
             xmlns:views="clr-namespace:Freerider.Views"
             x:Class="Freerider.Views.MainPage">
 
-    <MasterDetailPage.Master>
-        <views:MenuPage />
-    </MasterDetailPage.Master>
-
     <MasterDetailPage.Detail>
         <NavigationPage>
             <NavigationPage.Icon>

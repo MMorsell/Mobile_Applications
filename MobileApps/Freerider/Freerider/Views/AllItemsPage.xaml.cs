@@ -15,21 +15,21 @@ using System.Collections.ObjectModel;
 namespace Freerider.Views
 {
     [DesignTimeVisible(false)]
-    public partial class ItemsPage : ContentPage
+    public partial class AllItemsPage : ContentPage
     {
-        private ObservableCollection<SubscribeModel> alreadyWatchedTrips = new ObservableCollection<SubscribeModel>();
-        public ObservableCollection<SubscribeModel> AlreadyWatchedTrips { get { return alreadyWatchedTrips; } }
+        private ObservableCollection<ItemModel> alreadyWatchedTrips = new ObservableCollection<ItemModel>();
+        public ObservableCollection<ItemModel> AlreadyWatchedTrips { get { return alreadyWatchedTrips; } }
 
-        public ItemsPage()
+        public AllItemsPage()
         {
             InitializeComponent();
             AlreadyWatchedTrips.Add(
-                new SubscribeModel("Falun", "Borlänge")
+                new ItemModel("Falun", "Borlänge")
                 {
                     Id = 1,
                 });
             AlreadyWatchedTrips.Add(
-                new SubscribeModel("Falun", "Stockholm")
+                new ItemModel("Falun", "Stockholm")
                 {
                     Id = 2,
                 });
@@ -37,16 +37,9 @@ namespace Freerider.Views
             BindingContext = this;
         }
 
-        private async void OnItemSelected(object sender, EventArgs args)
-        {
-            var layout = (BindableObject)sender;
-            var item = (Item)layout.BindingContext;
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
-        }
-
         private async void AddItem_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new ItemDetailPage()));
+            await Navigation.PushModalAsync(new NavigationPage(new AddItemPage()));
         }
 
         protected override void OnAppearing()
@@ -60,7 +53,7 @@ namespace Freerider.Views
         public async void OnDelete(object sender, EventArgs e)
         {
             var mi = ((MenuItem)sender);
-            var currentSubscribePost = (SubscribeModel)mi.CommandParameter;
+            var currentSubscribePost = (ItemModel)mi.CommandParameter;
             if (await DisplayAlert("Ta bort bevakning", $"Vill du verkligen ta bort bevakning:\n\n {currentSubscribePost.FormattedString}?", "Ja", "Nej"))
             {
                 AlreadyWatchedTrips.Remove(AlreadyWatchedTrips.FirstOrDefault(sMod => sMod.Id.Equals(currentSubscribePost.Id)));

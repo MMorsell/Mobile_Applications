@@ -4,8 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Freerider.Views.ItemDetailPage"
-             Title="{Binding Title}">
+             x:Class="Freerider.Views.AddItemPage"
+             Title="Lägg till ny bevakning">
 
     <StackLayout Spacing="20" Padding="15">
 

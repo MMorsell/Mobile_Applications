@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Freerider.Models
 {
-    public class SubscribeModel
+    public class ItemModel
     {
-        public SubscribeModel(string fromDestination, string toDestination)
+        public ItemModel(string fromDestination, string toDestination)
         {
             FromDestination = fromDestination;
             ToDestination = toDestination;
