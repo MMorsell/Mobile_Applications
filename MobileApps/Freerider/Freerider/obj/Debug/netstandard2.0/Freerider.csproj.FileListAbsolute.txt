@@ -19,3 +19,4 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider\bin\Debug\netstandard2.0\Mono.Android.pdb
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider\bin\Debug\netstandard2.0\Mono.Android.xml
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider\obj\Debug\netstandard2.0\Freerider.csproj.CopyComplete
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs

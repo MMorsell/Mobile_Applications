@@ -12,13 +12,11 @@ namespace Freerider.Views
     [DesignTimeVisible(false)]
     public partial class ItemDetailPage : ContentPage
     {
-        private ItemDetailViewModel viewModel;
-
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
             InitializeComponent();
 
-            BindingContext = new HertzFreeriderOptionsModel();
+            BindingContext = viewModel;
         }
 
         public ItemDetailPage()
@@ -26,6 +24,14 @@ namespace Freerider.Views
             InitializeComponent();
 
             BindingContext = new HertzFreeriderOptionsModel();
+        }
+
+        private void Save_Clicked(object sender, EventArgs e)
+        {
+            //Needs to be extracted to service
+            //Freerider.Views.ItemsPage.AlreadyWatchedTrips.Add(new SubscribeModel("", "")
+            //{
+            //});
         }
     }
 }

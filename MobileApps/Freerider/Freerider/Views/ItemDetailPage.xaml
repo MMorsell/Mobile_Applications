@@ -14,5 +14,7 @@
 
         <Picker ItemsSource="{Binding DestinationOptions}" Title="Till">
         </Picker>
+
+        <Button Text="Spara" Clicked="Save_Clicked"></Button>
     </StackLayout>
 </ContentPage>

@@ -6,8 +6,16 @@ namespace Freerider.Models
 {
     public class SubscribeModel
     {
+        public SubscribeModel(string fromDestination, string toDestination)
+        {
+            FromDestination = fromDestination;
+            ToDestination = toDestination;
+            FormattedString = $"{FromDestination} -> {ToDestination}";
+        }
+
         public int Id { get; set; }
         public string FromDestination { get; set; }
         public string ToDestination { get; set; }
+        public string FormattedString { get; set; }
     }
 }

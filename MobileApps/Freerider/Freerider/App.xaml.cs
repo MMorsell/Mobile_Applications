@@ -13,7 +13,7 @@ namespace Freerider
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new ItemDetailPage();
+            MainPage = new ItemsPage();
         }
 
         protected override void OnStart()

@@ -7,24 +7,34 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Notekeeper_xamarin.Models;
-using Notekeeper_xamarin.Views;
-using Notekeeper_xamarin.ViewModels;
+using Freerider.Models;
+using Freerider.Views;
+using Freerider.ViewModels;
+using System.Collections.ObjectModel;
 
-namespace Notekeeper_xamarin.Views
+namespace Freerider.Views
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class ItemsPage : ContentPage
     {
-        private ItemsViewModel viewModel;
+        private ObservableCollection<SubscribeModel> alreadyWatchedTrips = new ObservableCollection<SubscribeModel>();
+        public ObservableCollection<SubscribeModel> AlreadyWatchedTrips { get { return alreadyWatchedTrips; } }
 
         public ItemsPage()
         {
             InitializeComponent();
+            AlreadyWatchedTrips.Add(
+                new SubscribeModel("Falun", "Borlänge")
+                {
+                    Id = 1,
+                });
+            AlreadyWatchedTrips.Add(
+                new SubscribeModel("Falun", "Stockholm")
+                {
+                    Id = 2,
+                });
 
-            BindingContext = viewModel = new ItemsViewModel();
+            BindingContext = this;
         }
 
         private async void OnItemSelected(object sender, EventArgs args)
@@ -43,8 +53,18 @@ namespace Notekeeper_xamarin.Views
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
-                viewModel.IsBusy = true;
+            //if (subscribeModels.Items.Count == 0)
+            //    subscribeModels.IsBusy = true;
+        }
+
+        public async void OnDelete(object sender, EventArgs e)
+        {
+            var mi = ((MenuItem)sender);
+            var currentSubscribePost = (SubscribeModel)mi.CommandParameter;
+            if (await DisplayAlert("Ta bort bevakning", $"Vill du verkligen ta bort bevakning:\n\n {currentSubscribePost.FormattedString}?", "Ja", "Nej"))
+            {
+                AlreadyWatchedTrips.Remove(AlreadyWatchedTrips.FirstOrDefault(sMod => sMod.Id.Equals(currentSubscribePost.Id)));
+            };
         }
     }
 }
