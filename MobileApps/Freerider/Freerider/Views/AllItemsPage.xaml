@@ -15,7 +15,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <ListView x:Name="EmployeeView" ItemsSource="{Binding AlreadyWatchedTrips}">
+            <ListView x:Name="EmployeeView" ItemsSource="{Binding Items}">
                 <ListView.Header>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Prenumererar på dessa resor"

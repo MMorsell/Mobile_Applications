@@ -17,24 +17,13 @@ namespace Freerider.Views
     [DesignTimeVisible(false)]
     public partial class AllItemsPage : ContentPage
     {
-        private ObservableCollection<ItemModel> alreadyWatchedTrips = new ObservableCollection<ItemModel>();
-        public ObservableCollection<ItemModel> AlreadyWatchedTrips { get { return alreadyWatchedTrips; } }
+        private ItemsViewModel alreadyWatchedTrips;
 
         public AllItemsPage()
         {
             InitializeComponent();
-            AlreadyWatchedTrips.Add(
-                new ItemModel("Falun", "Borlänge")
-                {
-                    Id = 1,
-                });
-            AlreadyWatchedTrips.Add(
-                new ItemModel("Falun", "Stockholm")
-                {
-                    Id = 2,
-                });
 
-            BindingContext = this;
+            BindingContext = alreadyWatchedTrips = new ItemsViewModel();
         }
 
         private async void AddItem_Clicked(object sender, EventArgs e)
@@ -56,7 +45,7 @@ namespace Freerider.Views
             var currentSubscribePost = (ItemModel)mi.CommandParameter;
             if (await DisplayAlert("Ta bort bevakning", $"Vill du verkligen ta bort bevakning:\n\n {currentSubscribePost.FormattedString}?", "Ja", "Nej"))
             {
-                AlreadyWatchedTrips.Remove(AlreadyWatchedTrips.FirstOrDefault(sMod => sMod.Id.Equals(currentSubscribePost.Id)));
+                alreadyWatchedTrips.Items.Remove(alreadyWatchedTrips.Items.FirstOrDefault(sMod => sMod.Id.Equals(currentSubscribePost.Id)));
             };
         }
     }
