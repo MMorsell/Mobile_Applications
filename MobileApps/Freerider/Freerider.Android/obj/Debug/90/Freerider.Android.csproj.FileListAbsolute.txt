@@ -229,6 +229,8 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EditorEditText.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EditorRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EditorRendererBase_1.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EllipseRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EllipseView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EmptyViewAdapter.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EndSingleSnapHelper.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\EndSnapHelper.java
@@ -273,6 +275,8 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ItemsViewAdapter_2.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ItemsViewRenderer_3.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LabelRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LineRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\LineView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewAdapter.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ListViewRenderer_Container.java
@@ -293,14 +297,23 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PageExtensions_EmbeddedFragment.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PageExtensions_EmbeddedSupportFragment.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PageRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PathRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PathView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PickerEditText.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PickerManager_PickerListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PickerRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PlatformRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\Platform_DefaultRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolygonRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolygonView.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolylineRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PolylineView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PositionalSmoothScroller.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\PowerSaveModeBroadcastReceiver.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ProgressBarRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RadioButtonRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectangleRenderer.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RefreshViewRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ScrollHelper.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ScrollLayoutManager.java
@@ -310,6 +323,8 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\SelectableItemsViewAdapter_2.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\SelectableItemsViewRenderer_3.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\SelectableViewHolder.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeRenderer_2.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeView.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShellContentFragment.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShellFlyoutRecyclerAdapter.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShellFlyoutRecyclerAdapter_ElementViewHolder.java
@@ -354,6 +369,7 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\TimePickerRendererBase_1.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer_LongPressGestureListener.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewCellRenderer_ViewCellContainer_TapGestureListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewRenderer.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ViewRenderer_2.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\VisualElementRenderer_1.java
@@ -384,6 +400,7 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\BatteryBroadcastReceiver.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ClipboardChangeListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\ConnectivityBroadcastReceiver.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\EnergySaverBroadcastReceiver.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\GyroscopeListener.java
@@ -393,6 +410,7 @@ C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\SensorListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\SingleLocationListener.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\TextToSpeechImplementation.java
+C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a0e0a82d0db9a07d\WebAuthenticatorCallbackActivity.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\CustomTabsServiceConnectionImpl.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64a98abb514ffad9f1\KeepAliveService.java
 C:\Users\Eraza\source\repos\Mobile Apps\Mobile_Applications\MobileApps\Freerider\Freerider.Android\obj\Debug\90\android\src\crc64ee486da937c010f4\ButtonRenderer.java
