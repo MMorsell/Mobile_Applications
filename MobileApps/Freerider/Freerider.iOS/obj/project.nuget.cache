@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JB11Ba0woK7UwrJF3vniQEh04zpcEvD+4jYdelj/xaf2GPE6T6QGiUdkQHAJr/Hiqno0tfA5sWBrC2KZUNhqZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.iOS\\Freerider.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eraza\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
