@@ -4,27 +4,35 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="Freerider.Views.AllItemsPage"
-             Title="{Binding Title}"
-             x:Name="BrowseItemsPage">
+             x:Class="Freerider.Views.AllSubscribedTrips">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Mina bevakningar" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Add" Clicked="AddItem_Clicked" />
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
         <StackLayout>
+
             <ListView x:Name="ItemView" ItemsSource="{Binding Items}">
                 <ListView.Header>
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Nuvarande resor på Hertz Freerider"
+
+                        <Button Text="Create Notification"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Clicked="OnScheduleClick" />
+                        <Label Text="Prenumererar på dessa resor"
                        TextColor="Black"
                        FontSize="Large" />
                     </StackLayout>
                 </ListView.Header>
                 <ListView.ItemTemplate>
+
                     <DataTemplate>
                         <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="OnDelete" CommandParameter="{Binding .}" Text="Ta bort bevakning" IsDestructive="True" />
+                            </ViewCell.ContextActions>
                             <StackLayout Padding="15,0">
                                 <Label Text="{Binding FormattedString}" />
                             </StackLayout>
