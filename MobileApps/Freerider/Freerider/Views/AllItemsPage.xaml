@@ -18,12 +18,18 @@
             <ListView x:Name="EmployeeView" ItemsSource="{Binding Items}">
                 <ListView.Header>
                     <StackLayout Orientation="Horizontal">
+
+                        <Button Text="Create Notification"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                Clicked="OnScheduleClick" />
                         <Label Text="Prenumererar på dessa resor"
                        TextColor="Black"
                        FontSize="Large" />
                     </StackLayout>
                 </ListView.Header>
                 <ListView.ItemTemplate>
+
                     <DataTemplate>
                         <ViewCell>
                             <ViewCell.ContextActions>

@@ -12,6 +12,8 @@ namespace Freerider
         {
             InitializeComponent();
 
+            Xamarin.Forms.DependencyService.Get<INotificationManager>().Initialize();
+
             //DependencyService.Register<MockDataStore>();
             MainPage = new AllItemsPage();
         }

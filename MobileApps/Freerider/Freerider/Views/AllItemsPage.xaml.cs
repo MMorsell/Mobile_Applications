@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
-
 using Freerider.Models;
-using Freerider.Views;
 using Freerider.ViewModels;
-using System.Collections.ObjectModel;
+using Freerider.Services;
 
 namespace Freerider.Views
 {
@@ -18,11 +12,12 @@ namespace Freerider.Views
     public partial class AllItemsPage : ContentPage
     {
         private ItemsViewModel alreadyWatchedTrips;
+        private NotificationService _notificationService;
 
         public AllItemsPage()
         {
             InitializeComponent();
-
+            _notificationService = new NotificationService();
             BindingContext = alreadyWatchedTrips = new ItemsViewModel();
         }
 
@@ -47,6 +42,13 @@ namespace Freerider.Views
             {
                 alreadyWatchedTrips.Items.Remove(alreadyWatchedTrips.Items.FirstOrDefault(sMod => sMod.Id.Equals(currentSubscribePost.Id)));
             };
+        }
+
+        public void OnScheduleClick(object sender, EventArgs e)
+        {
+            string title = $"Local Notification #";
+            string message = $"You have now received notifications!";
+            _notificationService.SendNotification(title, message);
         }
     }
 }
