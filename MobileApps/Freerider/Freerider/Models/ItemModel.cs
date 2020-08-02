@@ -6,6 +6,10 @@ namespace Freerider.Models
 {
     public class ItemModel
     {
+        public ItemModel()
+        {
+        }
+
         public ItemModel(string fromDestination, string toDestination)
         {
             FromDestination = fromDestination;
@@ -17,5 +21,10 @@ namespace Freerider.Models
         public string FromDestination { get; set; }
         public string ToDestination { get; set; }
         public string FormattedString { get; set; }
+
+        public void RecalculateFormattedString()
+        {
+            FormattedString = $"{FromDestination} -> {ToDestination}";
+        }
     }
 }

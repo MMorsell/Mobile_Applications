@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"Freerider.Android.dll",
 		"FormsViewGroup.dll",
 		"Freerider.dll",
+		"HtmlAgilityPack.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

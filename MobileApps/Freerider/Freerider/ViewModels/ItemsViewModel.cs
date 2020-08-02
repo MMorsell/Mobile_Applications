@@ -35,16 +35,12 @@ namespace Freerider.ViewModels
             {
                 Items.Clear();
 
-                Items.Add(
-                new ItemModel("Falun", "Borlänge")
+                var allPostsCurrentlyOnHertzSite = Freerider.Services.WebscraperService.GetNewUpdate();
+
+                foreach (var post in allPostsCurrentlyOnHertzSite)
                 {
-                    Id = 1,
-                });
-                Items.Add(
-                    new ItemModel("Falun", "Stockholm")
-                    {
-                        Id = 2,
-                    });
+                    Items.Add(post);
+                }
             }
             catch (Exception ex)
             {
