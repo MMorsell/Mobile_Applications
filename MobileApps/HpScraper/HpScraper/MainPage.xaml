@@ -32,5 +32,7 @@
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked" />
+
+        <Label Text="" x:Name="numberOfListens" FontSize="Large" HorizontalOptions="CenterAndExpand" />
     </StackLayout>
 </ContentPage>

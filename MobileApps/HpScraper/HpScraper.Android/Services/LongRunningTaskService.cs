@@ -5,6 +5,7 @@ using Android.OS;
 using System.Threading;
 using Xamarin.Forms;
 using HpScraper.Messages;
+using HpScraper.Helpers;
 
 namespace HpScraper.Droid
 {
@@ -27,8 +28,8 @@ namespace HpScraper.Droid
                 try
                 {
                     //INVOKE THE SHARED CODE
-                    var counter = new TaskCounter();
-                    counter.RunCounter(_cts.Token).Wait();
+                    var webScraper = new WebscraperHelper();
+                    webScraper.ListenToHpWeb(_cts.Token).Wait();
                 }
                 catch (OperationCanceledException)
                 {

@@ -43,6 +43,12 @@ namespace HpScraper.Droid
 
             messageId++;
 
+            //Intent notificationIntent = new Intent(Intent.ACTION_VIEW);
+            //notificationIntent.setData(Uri.parse(link));
+
+            //PendingIntent pending = PendingIntent.getActivity(this, 0, notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
+            //myNotification.setContentIntent(pending);
+
             Intent intent = new Intent(AndroidApp.Context, typeof(MainActivity));
             intent.PutExtra(TitleKey, title);
             intent.PutExtra(MessageKey, message);

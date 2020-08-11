@@ -1,10 +1,13 @@
 ﻿using HpScraper.Enums;
+using HpScraper.Messages;
 using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace HpScraper.Helpers
 {
@@ -14,13 +17,36 @@ namespace HpScraper.Helpers
         private static readonly string _url = "https://store.hp.com/SwedenStore/Merch/Product.aspx?id=158P3EA&opt=UUW&sel=NTB";
         private static HtmlDocument previousHtmlDocument = new HtmlDocument();
 
-        public static UpdateType GetNewUpdate()
+        public async Task ListenToHpWeb(CancellationToken token)
+        {
+            await Task.Run(async () =>
+            {
+                for (long i = 0; i < long.MaxValue; i++)
+                {
+                    token.ThrowIfCancellationRequested();
+
+                    await Task.Delay(15000);
+
+                    var result = new TickedEnum
+                    {
+                        MessageCode = await GetNewUpdate()
+                    };
+
+                    Device.BeginInvokeOnMainThread(() =>
+                    {
+                        MessagingCenter.Send(result, "TickedMessage");
+                    });
+                }
+            }, token);
+        }
+
+        private async Task<UpdateType> GetNewUpdate()
         {
             using (var myWebClient = new WebClient())
             {
                 myWebClient.Headers["User-Agent"] = "MOZILLA/5.0 (WINDOWS NT 6.1; WOW64) APPLEWEBKIT/537.1 (KHTML, LIKE GECKO) CHROME/21.0.1180.75 SAFARI/537.1";
 
-                string page = myWebClient.DownloadString(_url);
+                string page = await myWebClient.DownloadStringTaskAsync(_url);
 
                 HtmlDocument htmlDocument = new HtmlDocument();
                 htmlDocument.LoadHtml(page);
@@ -47,7 +73,7 @@ namespace HpScraper.Helpers
             return UpdateType.No_Difference;
         }
 
-        private static void InitializePreviousDocument(HtmlDocument htmlDocument)
+        private void InitializePreviousDocument(HtmlDocument htmlDocument)
         {
             if (_firstListen)
             {
