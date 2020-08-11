@@ -22,16 +22,16 @@ namespace HpScraper.Droid
 
             Task.Run(() =>
             {
-                //var imageHelper = new ImageHelper();
-                //imageHelper.DownloadImageAsync(url)
-                //        .ContinueWith(filePath =>
-                //        {
-                //            var message = new DownloadFinishedMessage
-                //            {
-                //                FilePath = filePath.Result
-                //            };
-                MessagingCenter.Send("aa", "DownloadFinishedMessage");
-                //});
+                var imageHelper = new ImageHelper();
+                imageHelper.DownloadImageAsync(url)
+                        .ContinueWith(filePath =>
+                        {
+                            var message = new DownloadFinishedMessage
+                            {
+                                FilePath = filePath.Result
+                            };
+                            MessagingCenter.Send(message, "DownloadFinishedMessage");
+                        });
             });
 
             return StartCommandResult.Sticky;
