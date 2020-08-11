@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Freerider\Freerider\Freerider.csproj" />
+    <ProjectReference Include="..\HpScraper\HpScraper\HpScraper.csproj" />
   </ItemGroup>
 
 </Project>
