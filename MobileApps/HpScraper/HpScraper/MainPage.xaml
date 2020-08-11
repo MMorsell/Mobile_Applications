@@ -23,14 +23,12 @@
 
     <StackLayout>
 
-        <Label x:Name="label"
-               Text="Lyssnar inte aktivt på hp säljsida"
-               TextColor="Red"
+        <Label x:Name="TopLabel"
                FontSize="Large"
                VerticalOptions="CenterAndExpand"
                HorizontalOptions="Center" />
 
-        <Button Text="Toggla lyssnare"
+        <Button x:Name="ToggleButton"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
                 Clicked="Button_Clicked" />

@@ -10,7 +10,7 @@ namespace HpScraper
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LongRunningPage();
         }
 
         protected override void OnStart()
