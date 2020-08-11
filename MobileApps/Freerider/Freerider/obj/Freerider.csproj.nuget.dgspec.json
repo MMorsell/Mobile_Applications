@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {}
+    "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {
+    "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
+        "projectUniqueName": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
         "projectName": "Freerider",
-        "projectPath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
+        "projectPath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
         "packagesPath": "C:\\Users\\Eraza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\obj\\",
+        "outputPath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -70,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

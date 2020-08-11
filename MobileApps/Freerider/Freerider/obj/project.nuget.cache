@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "e8Q1L1fiQQPMB2c84kk4NHDjzt7s/Jj9OkfbMAvTVnpPptyeASwZXyXbDSpinrKQnurh+kTjp7PIAOnkFPFc5Q==",
+  "dgSpecHash": "4nJzgTontrUU2dh22yGB3tjgMh+H2K2/LfVR7YBEPWTzt1ssFQ6kS3RVdgh87e8ii4OU6A+MRytfy5oee1pwHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
+  "projectFilePath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eraza\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
     "C:\\Users\\Eraza\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Eraza\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Eraza\\.nuget\\packages\\xamarin.forms\\4.7.0.1239\\xamarin.forms.4.7.0.1239.nupkg.sha512"
   ],
   "logs": []

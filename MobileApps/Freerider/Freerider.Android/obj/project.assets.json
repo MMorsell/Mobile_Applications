@@ -1996,11 +1996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\Freerider.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\Freerider.Android.csproj",
       "projectName": "Freerider.Android",
-      "projectPath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\Freerider.Android.csproj",
+      "projectPath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\Freerider.Android.csproj",
       "packagesPath": "C:\\Users\\Eraza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\obj\\",
+      "outputPath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2021,8 +2021,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {
-              "projectPath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj"
+            "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj": {
+              "projectPath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider\\Freerider.csproj"
             }
           }
         }

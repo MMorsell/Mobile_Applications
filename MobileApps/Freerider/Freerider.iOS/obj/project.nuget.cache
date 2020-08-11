@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zGZNaMH+hHp/2vNHGokeNSyRfCDflcSc6Ng3tEqvmHX+hVDkvMAsSG2jpvfnNtEBnDuovnWgZVzyytdLdqNJOw==",
+  "dgSpecHash": "vyZI7Idgr3U6HMegJPns6IxNO1T5VNnjdD7ErVqNIJNOUOGIxYmlS/54EaEMOC/ljs9dJIGvJWVYVP1/el02Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eraza\\source\\repos\\Mobile Apps\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.iOS\\Freerider.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Eraza\\Source\\Repos\\MMorsell\\Mobile_Applications\\MobileApps\\Freerider\\Freerider.iOS\\Freerider.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eraza\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
-    "C:\\Users\\Eraza\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Eraza\\.nuget\\packages\\xamarin.forms\\4.7.0.1239\\xamarin.forms.4.7.0.1239.nupkg.sha512"
   ],
   "logs": []
