@@ -49,11 +49,12 @@ namespace HpScraper.Droid
             //PendingIntent pending = PendingIntent.getActivity(this, 0, notificationIntent, Intent.FLAG_ACTIVITY_NEW_TASK);
             //myNotification.setContentIntent(pending);
 
-            Intent intent = new Intent(AndroidApp.Context, typeof(MainActivity));
-            intent.PutExtra(TitleKey, title);
-            intent.PutExtra(MessageKey, message);
+            var linkToExternalIntent = new Intent();
+            linkToExternalIntent.PutExtra(TitleKey, title);
+            linkToExternalIntent.PutExtra(MessageKey, message);
+            linkToExternalIntent.SetData(Android.Net.Uri.Parse("https://store.hp.com/SwedenStore/Merch/Product.aspx?id=158P3EA&opt=UUW&sel=NTB"));
 
-            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, pendingIntentId, intent, PendingIntentFlags.OneShot);
+            PendingIntent pendingIntent = PendingIntent.GetActivity(AndroidApp.Context, pendingIntentId, linkToExternalIntent, PendingIntentFlags.OneShot);
 
             NotificationCompat.Builder builder = new NotificationCompat.Builder(AndroidApp.Context, channelId)
                 .SetContentIntent(pendingIntent)

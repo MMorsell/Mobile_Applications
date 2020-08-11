@@ -65,7 +65,8 @@ namespace HpScraper.Helpers
                     if (htmlDocument.DocumentNode.OuterHtml != previousHtmlDocument.DocumentNode.OuterHtml)
                     {
                         previousHtmlDocument = htmlDocument;
-                        return UpdateType.Minor;
+                        //return UpdateType.Minor;
+                        return UpdateType.No_Difference; //Not suitable since small changes happen too often
                     }
                 }
             }
