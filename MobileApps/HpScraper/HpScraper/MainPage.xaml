@@ -34,5 +34,10 @@
                 Clicked="Button_Clicked" />
 
         <Label Text="" x:Name="numberOfListens" FontSize="Large" HorizontalOptions="CenterAndExpand" />
+        <Button x:Name="ControlWeb"
+                Text="Kontrollera manuellt"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                Clicked="ControlWeb_Clicked" />
     </StackLayout>
 </ContentPage>

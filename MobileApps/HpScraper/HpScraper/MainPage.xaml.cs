@@ -3,6 +3,8 @@ using HpScraper.Messages;
 using System;
 using Xamarin.Forms;
 using HpScraper.Enums;
+using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace HpScraper
 {
@@ -94,6 +96,20 @@ namespace HpScraper
                     ToggleButton.Text = Constants.TextValues.NotlisteningBtn;
                     break;
             }
+        }
+
+        private void ControlWeb_Clicked(object sender, EventArgs e)
+        {
+            Task.Run(async () =>
+            {
+                await Browser.OpenAsync(new Uri("https://store.hp.com/SwedenStore/Merch/Product.aspx?id=158P3EA&opt=UUW&sel=NTB"), new BrowserLaunchOptions
+                {
+                    LaunchMode = BrowserLaunchMode.SystemPreferred,
+                    TitleMode = BrowserTitleMode.Show,
+                    PreferredToolbarColor = Color.AliceBlue,
+                    PreferredControlColor = Color.Violet
+                });
+            });
         }
     }
 }

@@ -55,9 +55,13 @@ namespace HpScraper.Helpers
 
                 InitializePreviousDocument(htmlDocument);
 
-                if (innerBlockHtmlNodes != null && innerBlockHtmlNodes[0].InnerText.Equals("Lägg i kundvagnen", StringComparison.CurrentCultureIgnoreCase))
+                if (innerBlockHtmlNodes != null)
                 {
-                    return UpdateType.Major;
+                    if (innerBlockHtmlNodes[0].InnerText.Equals("LÃ¤gg i kundvagnen", StringComparison.CurrentCultureIgnoreCase) ||
+                        innerBlockHtmlNodes[0].InnerText.Equals("Lägg i kundvagnen", StringComparison.CurrentCultureIgnoreCase))
+                    {
+                        return UpdateType.Major;
+                    }
                 }
 
                 if (!_firstListen)
