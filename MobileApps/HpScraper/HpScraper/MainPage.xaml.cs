@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HpScraper.Helpers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -11,9 +12,11 @@ namespace HpScraper
     public partial class MainPage : ContentPage
     {
         private bool IsListeningToHpSale { get; set; }
+        private NotificationHelper _notificationHelper;
 
         public MainPage()
         {
+            _notificationHelper = new NotificationHelper();
             InitializeComponent();
         }
 
